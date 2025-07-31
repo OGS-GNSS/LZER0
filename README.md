@@ -16,7 +16,7 @@ To fully utilize an LZER0 device, you will need to set up the hardware, deploy a
 ### Choose Your Path
 - 🔧 **I want to build the hardware** → Continue to the [Hardware Guide](#%EF%B8%8F-hardware-guide) section below
 - 💻 **I want to deploy and configure devices** → Go to the [LZER0 Deployment and Provisioning](https://hub.geosciences.cloud/git/geosciencesir-devop/ogs_dev/lzer0_provisioning) repository
-- 🌐 **I want to set up the web-based centralized management and configuration system** → Check out the [GNSS-Central-Config](https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config) system
+- 🌐 **I want to set up the web-based centralized management and configuration system** → Check out the [LZER0 Web Interfaces](https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config) system
 - 🛠️ **I want to use command-line tools to interact with LZER0 devices** → Explore the [lzeroutils repository](https://github.com/shakelab/lzeroutils)
 - 📚 **I want to understand the complete system** → Continue reading this guide and explore the [research publications](#-articles-and-informations-available-at)
   
@@ -37,9 +37,9 @@ The LZER0 Deployment and Provisioning repository is crucial for bringing new Ras
 
 For detailed instructions, please refer to the `README.md` in the [LZER0 Deployment and Provisioning](https://hub.geosciences.cloud/git/geosciencesir-devop/ogs_dev/lzer0_provisioning) repository.
 
-### GNSS-Central-Config
+### LZER0 Web Interfaces
 
-The [GNSS-Central-Config](https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config) system enables centralized management of a pool of LZER0 receivers. This system facilitates defining and distributing device configurations, monitoring their status, updating parameters, and coordinating the behavior of the entire GNSS network. This is particularly useful for fleet management, allowing programmatic updates to keep configuration files in sync across all deployed boards.
+The [LZER0 Web Interfaces](https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config) system enables centralized management of a pool of LZER0 receivers. This system facilitates defining and distributing device configurations, monitoring their status, updating parameters, and coordinating the behavior of the entire GNSS network. This is particularly useful for fleet management, allowing programmatic updates to keep configuration files in sync across all deployed boards.
 
 In addition to the central system, each receiver also hosts a local web-based configuration interface. This configurator plays a crucial role, as it allows the setup of key parameters specific to each device — such as site name, caster credentials, approximate coordinates, and more. While the central system ensures coordination and consistency, the local interface ensures that each receiver can be individually tailored to its deployment context.
 
@@ -66,14 +66,14 @@ In addition to the central system, each receiver also hosts a local web-based co
       <td>Contains examples of the configuration file related to the operation of the LZER0 receiver. Some files are used directly, others are dynamically regenerated at provisioning or boot time.</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>🌐 Web-based configuration system</strong></td>
+      <td colspan="2"><strong>🌐 LZER0 Web Interfaces</strong></td>
     </tr>
     <tr>
-      <td><a href="https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config">GNSS-Central-Config</a> (soon public)</td>
+      <td><a href="https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/gnss-central-config">LZER0 Web Interfaces</a> (soon public)</td>
       <td>Web interface for centralized management of a pool of LZER0 receivers. It allows you to define and distribute device configurations, monitor their status, update parameters, and coordinate the behavior of the entire GNSS network.</td>
     </tr>
     <tr>
-      <td colspan="2"><strong>⚙️ Deployment system</strong></td>
+      <td colspan="2"><strong>⚙️ LZER0 Deployment and Provisioning</strong></td>
     </tr>
     <tr>
       <td><a href="https://hub.geosciences.cloud/git/geosciencesir-devop/ogs_dev/lzer0_provisioning">LZER0 Deployment and Provisioning</a> (soon public)</td>
