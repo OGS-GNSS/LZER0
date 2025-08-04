@@ -140,7 +140,7 @@ A compact version designed for topographic and cadastral surveying. It uses a u-
 #### LZER0-AUTO
 Developed for automotive and dynamic positioning applications, such as agricultural machinery. The electronics (u-blox M8T, Raspberry Pi Zero W, and ATXraspi interface board) are enclosed in a rugged industrial-grade Gewiss GW44427 box. Powered by the vehicle's battery (24V to 5V converter), it connects to a tablet in the cabin, which provides NTRIP corrections and real-time guidance
 
-#### LZER0-MOB (documentation will be uploaded)
+#### <a href="https://hub.geosciences-ir.it/git/geosciencesir-devop/ogs_dev/lzer0-mob">LZER0-MOB</a> (soon public)
 LZER0-MOB is a standalone GNSS device designed for temporary measurement campaigns and mobile deployments. It integrates a GNSS receiver (u-blox ZED-F9P), a Raspberry Pi, and an internal modem for remote connectivity.
 It can be powered by external batteries or solar panels, making it fully autonomous and ideal for rapid field deployment.
 
